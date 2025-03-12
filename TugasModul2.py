@@ -47,13 +47,13 @@ else:
     print(f"{Outline}")
 
 HargaTotal = Harga*Nominal_Tiket
-if HargaTotal < 100000:
+if HargaTotal <= 100000:
     Diskon = 0
     HargaAkhir = HargaTotal - Diskon
-elif 100000 <= HargaTotal < 250000:
+elif 100000 < HargaTotal <= 250000:
     Diskon = int(HargaTotal * (15/100))
     HargaAkhir = HargaTotal - Diskon
-elif HargaTotal >= 250000:
+elif HargaTotal > 250000:
     Diskon = int(HargaTotal * (35/100))
     HargaAkhir = HargaTotal - Diskon
 
