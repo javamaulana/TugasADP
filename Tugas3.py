@@ -9,10 +9,6 @@
 #     print(f"Tahun ke-{tahun}: Rp{int(M)}")
 
 # print(f"Target tercapai dalam {tahun} tahun!")
- 
-# M = float(input("Masukkan modal awal: "))
-# r = float(input("Masukkan suku bunga tahunan (%): "))
-# T = int(input("Masukkan target investasi: "))
 
 # tahun = 0
 # for tahun in range(1, T+1):
@@ -21,7 +17,6 @@
 #     if M >= T:
 #         break
 
-# print()
 # print(f"Target tercapai dalam {tahun} tahun!")
 
 outline = "-"*51
