@@ -2,6 +2,7 @@
 # r = float(input("Masukkan suku bunga tahunan (%): "))
 # T = float(input("Masukkan target investasi: "))
 
+### While Loop
 # tahun = 0
 # while M < T:
 #     tahun += 1
@@ -10,6 +11,7 @@
 
 # print(f"Target tercapai dalam {tahun} tahun!")
 
+### For Loop
 # tahun = 0
 # for tahun in range(1, T+1):
 #     M += M * (r / 100)
@@ -17,6 +19,7 @@
 #     if M >= T:
 #         break
 
+# print()
 # print(f"Target tercapai dalam {tahun} tahun!")
 
 outline = "-"*51
@@ -39,7 +42,7 @@ if target > modal:
     print(f"|            Data /tahun Investasi Anda           |")
     print(f"{outline}")
 
-    while modal < target:
+    while modal <= target:
         tahun += 1
         pertambahan = modal * (suku_bunga / 100)
         modal += pertambahan
