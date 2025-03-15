@@ -34,7 +34,7 @@ print(f"""
 modal = float(input("Masukkan modal awal investasi (Rp): "))
 suku_bunga = float(input("Masukkan suku bunga tahunan (%): "))
 target = float(input("Masukkan target investasi (Rp): "))
-modal_akhir = modal
+modal_awal = modal
 
 if target > modal:
     tahun = 0
@@ -48,7 +48,7 @@ if target > modal:
         modal += pertambahan
         print(f"Tahun ke-{tahun}: Rp{modal:,.2f}          | +Rp{pertambahan:,.2f}")
 
-    modal_akhir = modal-modal_akhir 
+    modal_akhir = modal-modal_awal
 
     print(f"\n{outline}")
     print(f"               Selamat!                 ")                 
