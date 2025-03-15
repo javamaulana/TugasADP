@@ -61,6 +61,6 @@ if target > modal:
 
 else:
     print(f"{outline}")
-    print(f"|   Transaksi Gagal: Modal awal investasi harus lebih besar dari target.  |")
+    print(f"|      Transaksi Gagal: Modal melebihi target     |")
     print(f"{outline}")
 
