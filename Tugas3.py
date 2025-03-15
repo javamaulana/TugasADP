@@ -1,6 +1,6 @@
 # M = float(input("Masukkan modal awal: "))
 # r = float(input("Masukkan suku bunga tahunan (%): "))
-# T = int(input("Masukkan target investasi: "))
+# T = float(input("Masukkan target investasi: "))
 
 # tahun = 0
 # while M < T:
