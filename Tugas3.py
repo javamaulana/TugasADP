@@ -39,7 +39,7 @@ modal_awal = modal
 if target > modal:
     tahun = 0
     print(f"\n{outline}")
-    print(f"|            Data /tahun Investasi Anda           |")
+    print(f"|            Data investasi /tahun Anda           |")
     print(f"{outline}")
 
     while modal <= target:
