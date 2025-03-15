@@ -32,9 +32,9 @@ print(f"""
 """)
 
 modal = float(input("Masukkan modal awal investasi (Rp): "))
-modal_akhir = modal
 suku_bunga = float(input("Masukkan suku bunga tahunan (%): "))
 target = float(input("Masukkan target investasi (Rp): "))
+modal_akhir = modal
 
 if target > modal:
     tahun = 0
