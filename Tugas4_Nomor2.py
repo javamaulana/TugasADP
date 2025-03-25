@@ -21,16 +21,16 @@ while True:
             ada_karakter_khusus = True
     
     if not Cek_Panjang:
-        print("Panjang password minimal 8 karakter.")
+        print("Pendek amat bro, itu password apa gaji? Minimal 8 karakter ya bro")
     elif not ada_huruf_kecil:
-        print("Password harus mengandung setidaknya 1 huruf kecil.")
+        print("Badan boleh besar, tapi password harus ada huruf kecil ya bro")
     elif not ada_huruf_kapital:
-        print("Password harus mengandung setidaknya 1 huruf kapital.")
+        print("Huruf kapitalnya jangan dilupain bro")
     elif not ada_angka:
-        print("Password harus mengandung setidaknya 1 angka.")
+        print("Kamu ada dendam pribadi sama angka ya bro?")
     elif not ada_karakter_khusus:
-        print("Password harus mengandung setidaknya 1 karakter khusus.")
+        print("Biar ga dihack bocil epep, tambahkan karakter khusus bro")
     else:
-        print("Password Valid.")
+        print("Nahh gini kan oke passwordnya bro!")
         break
-    print("Silakan coba lagi.\n")
+    print("Coba lagi bro.\n")
