@@ -21,7 +21,7 @@ while True:
             ada_karakter_khusus = True
     
     if not Cek_Panjang:
-        print("Pendek amat bro, itu password apa gaji? Minimal 8 karakter ya bro")
+        print("Sedikit amat bro, itu password apa gaji? Minimal 8 karakter ya bro")
     elif not ada_huruf_kecil:
         print("Badan boleh besar, tapi password harus ada huruf kecil ya bro")
     elif not ada_huruf_kapital:
@@ -33,4 +33,3 @@ while True:
     else:
         print("Nahh gini kan oke passwordnya bro!")
         break
-    print("Coba lagi bro.\n")
