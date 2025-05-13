@@ -30,8 +30,10 @@ while ulang.upper() == 'Y':
         h_list.append(h)
 
     print("\nOutput:")
-    print(f"{'No':<5}{'x':<10}{'f(x)':<15}{'g(x)':<15}{'h(x)':<15}")
+    print("-" * 60)
+    print(f"{'No':<3}| {'x':<11}| {'f(x)':<15}| {'g(x)':<15}| {'h(x)':<15}")
+    print("-" * 60)
     for i in range(len(x_list)):
-        print(f"{i+1:<5}{x_list[i]:<10}{f_list[i]:<15}{g_list[i]:<15}{h_list[i]:<15}")
+         print(f"{i+1:<3}| {x_list[i]:<11,.2f}| {f_list[i]:<15,.2f}| {g_list[i]:<15,.2f}| {h_list[i]:<15,.2f}")
    
     ulang = input("\nInput nilai x lagi Y/N?: ")
