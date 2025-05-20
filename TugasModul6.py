@@ -46,4 +46,3 @@ for i in range(len(mahasiswa)):
     ip = mahasiswa[i][2]
     
     print(f"{i + 1:<5} {nama:<20} {indeks_nilai:<10} {ip:<15.2f}")
-
