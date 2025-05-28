@@ -26,11 +26,7 @@ print(f"| {'No':<3} | {'Kecepatan Awal':<15} | {'Percepatan':<10} | {'Waktu':<6}
 print("-" * 80)
 
 for i in range(n):
-    current_v0 = list_v0[i]
-    current_a = list_a[i]
-    current_t = list_t[i]
-    
-    vt, s = hitung_glbb(current_v0, current_a, current_t)
-    print(f"| {i+1:<3} | {current_v0:<15,.2f} | {current_a:<10,.2f} | {current_t:<6,.2f} | {vt:<15,.2f} | {s:<10,.2f} |")
+    vt, s = hitung_glbb(list_v0[i], list_a[i], list_t[i])
+    print(f"| {i+1:<3} | {list_v0[i]:<15,.2f} | {list_a[i]:<10,.2f} | {list_t[i]:<6,.2f} | {vt:<15,.2f} | {s:<10,.2f} |")
 
 print("=" * 80)
