@@ -1,0 +1,16 @@
+Java Maulana,2410431021,A1,ketua acara,85,Acara
+Raditya Irawan,2410432003,A1,anggota acara,80,Acara
+Ghefira Rhoudotul Jannah,2410431002,A2,anggota acara,82,Acara
+Aisyah Ashari,2410431003,A1,ketua acara,90,Acara
+Muhammad Arifin Ilham,2410431008,A2,anggota pubdok,90,Pubdok
+Naila Farizka Azzahra,2410431016,A2,ketua pubdok,93,Pubdok
+Yazid Riyanda Putra,2410431005,A3,anggota pubdok,78,Pubdok
+Wahyu andani,2410432004,A2,anggota pubdok,85,Pubdok
+Dhea Hafiza,2410431006,A3,ketua danus,75,Danus
+Gibran Ramadhan,2410431032,A3,anggota danus,88,Danus
+Azhari Fauzi,2410433008,A1,anggota danus,80,Danus
+Dinda Rahma Mulyana,2410431034,A2,ketua danus,86,Danus
+Mutiara Aviva,2410432045,A3,anggota perlengkapan,83,Perlengkapan
+Zazkia Avris Yaumi,2410431039,A1,ketua perlengkapan,89,Perlengkapan
+Fauzi Taufiqur Rahman,2410431036,A2,anggota perlengkapan,92,Perlengkapan
+Aisyah Zahradiva,2410432010,A2,anggota perlengkapan,85,Perlengkapan
